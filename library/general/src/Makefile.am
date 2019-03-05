@@ -16,7 +16,6 @@ module_DATA = \
   modules/Encoding.rb \
   modules/CustomDialogs.rb \
   modules/Distro.rb \
-  modules/XVersion.rb \
   modules/Summary.rb \
   modules/UIHelper.rb \
   modules/DontShowAgain.rb \
@@ -46,7 +45,6 @@ scrconf_DATA = \
   scrconf/etc_ssh_sshd_config.scr \
   scrconf/cfg_displaymanager.scr \
   scrconf/cfg_yast2.scr \
-  scrconf/cfg_xversion.scr \
   scrconf/yast2_groups.scr \
   scrconf/etc_fstab.scr \
   scrconf/cfg_cron.scr \

@@ -2,11 +2,6 @@
 # Makefile.am for yast2/data
 #
 
-xversiondir = $(sysconfdir)/YaST2
-
-xversion_DATA =			\
-	XVersion
-
 scalabledir = @icondir@/hicolor/scalable/apps
 scalable_DATA = \
 	icons/hicolor/scalable/apps/yast-hardware-group.svg \
@@ -23,5 +18,5 @@ scalable_DATA = \
 	icons/hicolor/scalable/apps/yast-vm-group.svg \
 	icons/hicolor/scalable/apps/yast.svg
 
-EXTRA_DIST = $(xversion_DATA) $(scalable_DATA)
+EXTRA_DIST = $(scalable_DATA)
 include $(top_srcdir)/Makefile.am.common
