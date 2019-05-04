@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Sat May  4 15:14:18 UTC 2019 - Knut Anderssen <kanderssen@suse.de>
+
+- bsc#1086454
+  - Recognize IB interfaces based on IPOIB_MODE ifcfg attribute
+- 4.2.3
+
+-------------------------------------------------------------------
 Tue May  7 13:10:46 UTC 2019 - Steffen Winterfeldt <snwint@suse.com>
 
 - give more verbose feedback in 'view_anymsg' client (bsc#1132658)
