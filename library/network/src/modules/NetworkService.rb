@@ -298,7 +298,7 @@ module Yast
         path(".target.bash"),
         "/bin/ip addr | /usr/bin/grep -v '127.0.0\\|inet6' | /usr/bin/grep -c inet"
       )
-      if net == 0
+      if net == 0 # exit status; 0 means 'network found', NOT number of networks
         Builtins.y2milestone("IPv4 network is running ...")
         return true
       else
@@ -314,7 +314,7 @@ module Yast
         "/bin/ip addr | /usr/bin/grep -v 'inet6 ::1\\|inet6 fe80' | /usr/bin/grep -c inet6"
       )
 
-      if net == 0
+      if net == 0 # exit status; 0 means 'network found', NOT number of networks
         Builtins.y2milestone("IPv6 network is running ...")
         return true
       else
